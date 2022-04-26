@@ -1,0 +1,111 @@
+body {
+    background-color: rgb(255, 242, 227);
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    margin-top: 10px;
+    height: 500px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px black;
+}
+
+#left_man {
+    height: 200px;
+
+    float: left;
+}
+
+#right_man {
+    height: 200px;
+
+    float: right;
+}
+
+
+
+
+
+.table {
+    width: 50%;
+    margin-left: 20%;
+    border-spacing: 30px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px black;
+
+}
+
+th,
+td {
+    font-size: 20px;
+    font-family: cursive;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 40px;
+    border-right: solid 1px rgb(0, 0, 0);
+}
+
+.heading1 {
+    float: left;
+    margin-top: 50px;
+    margin-left: 8%;
+}
+
+.heading2 {
+    float: right;
+    margin-top: 50px;
+    margin-right: 8%;
+}
+#para1{
+    display: inline;
+    font-size: 30px;
+   position: relative;
+   top: 100px;
+   left: -70px;
+} 
+#para2{
+    float: right;
+    font-size: 30px;
+   display: inline;
+   position: relative;
+   top: 100px;
+   right: -70px;
+}
+a{
+    color:red
+}
+
+a:hover{
+    color: white;
+}
+
+.player1-health{
+    display: inline;
+    position: relative;
+    top: 360px;
+    left: 200px;
+}
+#heading4{
+    display: inline;
+    position: relative;
+    top: 350px;
+    left: 110px;
+
+}
+.player2-health{
+    display: inline;
+    float: right;
+    position: relative;
+    top: 300px;
+    right: 40px;
+}
+#heading5{
+    display: inline;
+    float: right;
+    position: relative;
+    top: 250px;
+    right: 90px;
+}
